@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+<body>
+
+    <main class="auth-page">
+        <div class="auth-card" id="authCard">
+            <section class="form-side">
+                <a href="index.html" class="back-link">← Back to Go Leaf</a>
+
+                <form class="auth-form login-form" id="loginForm">
+                    <span class="eyebrow">WELCOME BACK</span>
+                    <h1>Log in to Go Leaf</h1>
+                    <p class="subtitle">Access your saved trails, plans, and trips.</p>
+
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" placeholder="you@example.com" required>
+
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="••••••••" required>
+
+                    <button type="submit" class="btn-primary">Log in</button>
+
+                    <p class="switch-text">
+                        New to Go Leaf?
+                        <button type="button" class="link-btn" id="toSignupBtn">Create account</button>
+                    </p>
+                </form>
+
+                <form class="auth-form signup-form" id="signupForm">
+                    <span class="eyebrow">START YOUR JOURNEY</span>
+                    <h1>Create account</h1>
+                    <p class="subtitle">Plan adventures, save routes, and explore across seasons</p>
+
+                    <label for="signupName">Full name</label>
+                    <input type="text" id="signupName" placeholder="Your name" required>
+
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" placeholder="you@example.com" required>
+
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" placeholder="Create a password" required>
+
+                    <button type="submit" class="btn-primary">Create account</button>
+
+                    <p class="switch-text">
+                        Already have an account?
+                        <button type="button" class="link-btn" id="toLoginBtn">Log in</button>
+                    </p>
+                </form>
+            </section>
+
+            <aside class="visual-side" id="visualSide">
+                <img id="visualImage" src="../imazhe/landscape-mountains-nature-1365425.jpg" alt="Go Leaf">
+                <div class="visual-overlay"></div>
+                <div class="visual-content">
+                    <span class="badge" id="visualBadge">GO LEAF</span>
+                    <h2 id="visualTitle">Plan your next adventure</h2>
+                    <p id="visualDesc">Start anytime - explore trails, resorts, and journeys around the world.</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <script src="../JavaScript/login.js" defer></script>
+</body>
+</html>
