@@ -1,8 +1,4 @@
 
-Gleart Ismajli
-11:12 (31 minutes ago)
-to me
-
 console.log("                           hiiiiiiiiii <3");
 console.log("--------------------------------------------------------------");
 
